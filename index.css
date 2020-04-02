@@ -1,0 +1,60 @@
+header {
+    background: url(images/choco_page.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 800px;
+    margin: 0px 50px;
+  }
+
+  @media screen and (max-width: 600px){
+    header{
+      min-height: 300px;
+    }
+  }
+
+  @media screen and (max-width: 992px){
+    header{
+      min-height: 500px;
+    }
+  }
+  .menu-large:hover {
+    border-bottom: 2px solid white;
+  }
+  
+  .section {
+    padding-top: 4vw;
+    padding-bottom: 4vw
+  }
+
+  .tabs .indicator {
+    background: black;
+  }
+
+  .tabs .tab a, .tabs .tab a:active {
+    background: transparent;
+  }
+
+  .sidebar {
+    max-width: 200px;
+  }
+
+  .mobile-menu-container {
+    border-bottom: 3px solid white;
+    margin-bottom: 10px;
+  }
+
+  .mobile-menu-list:hover {
+    background: brown
+  }
+  .btn-icons {
+    margin: 0px 12px 10px 0px;
+  }
+
+  .photo-text {
+    margin-top: -37px;
+    
+  }
+
+  .photo-div {
+    margin-bottom: 30px;
+  }

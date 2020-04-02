@@ -29,6 +29,12 @@ header {
       min-height: 290px;
     }
   }
+    
+@media screen and (max-width: 990px){
+    .candy-text{
+      margin-top: 60px;
+    }
+  }
 
   .menu-large:hover {
     border-bottom: 2px solid white;

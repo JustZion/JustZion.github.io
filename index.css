@@ -18,17 +18,18 @@ header {
     }
   }
 
-  @media all and (min-width: 300px) and (max-width: 700px){
+  @media all and (min-width: 500px) and (max-width: 700px){
     header{
-      min-height: 300px;
+      min-height: 350px;
     }
   }
 
-  @media all and (min-width: 100px) and (max-width: 300px){
+  @media all and (min-width: 250px) and (max-width: 500px){
     header{
-      min-height: 150px;
+      min-height: 290px;
     }
   }
+
   .menu-large:hover {
     border-bottom: 2px solid white;
   }
@@ -44,6 +45,11 @@ header {
 
   .tabs .tab a, .tabs .tab a:active {
     background: transparent;
+  }
+
+  .insta , .twi {
+    font-weight: bolder;
+    
   }
 
   .sidebar {
